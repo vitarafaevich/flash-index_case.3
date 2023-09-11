@@ -11,3 +11,5 @@ print('Слогов:', count)
 print('Средняя длина предложения в словах:', len(wrd)/len(text.sentences))
 print('Средняя длина слова в слогах:', count/len(wrd))
 
+
+"""9999999"""
