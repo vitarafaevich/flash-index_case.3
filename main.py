@@ -9,18 +9,19 @@ for i in range(len(text)):
 
 avearge_word_lenght = len(wrd)/len(text.sentences)
 avearge_syllable_lenght = count/len(wrd)
-print('Предложений:', len(text.sentences))
-print('Слов:', len(wrd))
-print('Слогов:', count)
-print('Средняя длина предложения в словах:', avearge_word_lenght)
-print('Средняя длина слова в слогах:', avearge_syllable_lenght)
+print(ru.SENTENCE, len(text.sentences))
+print(ru.WORD, len(wrd))
+print(ru.SYLLABLE, count)
+print(ru.AVEARGE_WORD_LENGHT, avearge_word_lenght)
+print(ru.AVEARGE_SYLLABLE_LENGHT, avearge_syllable_lenght)
 
-if text[1].upper() in "ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ":
+flash_index = 0
+if text[1].upper() in 'ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ':
     flash_index = 206.835 - 1.3*avearge_word_lenght - 60.1*avearge_syllable_lenght
 else:
     flash_index = 206.835 - 1.015 * avearge_word_lenght - 84.6 * avearge_syllable_lenght
 
-print("Индекс удобочитаемости Флеша: ", flash_index)
+print(ru.FLASH_INDEX,flash_index)
 if 90< flash_index <=100:
     print()
 elif 80< flash_index <=90:

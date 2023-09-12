@@ -1,1 +1,6 @@
-SENTENCE
+SENTENCE = 'Предложений:'
+WORD = 'Слов:'
+SYLLABLE = 'Слогов:'
+AVEARGE_WORD_LENGHT = 'Средняя длина предложения в словах:'
+AVEARGE_SYLLABLE_LENGHT = 'Средняя длина слова в слогах:'
+FLASH_INDEX = 'Индекс удобочитаемости Флеша: '
