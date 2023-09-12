@@ -1,3 +1,4 @@
+import ru_local as ru
 from textblob import TextBlob
 text = TextBlob(input())
 wrd = text.words
