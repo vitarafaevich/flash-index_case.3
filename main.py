@@ -23,16 +23,16 @@ else:
 
 print(ru.FLASH_INDEX,flash_index)
 if 90< flash_index <=100:
-    print()
+    print(ru.FLASH_INDEX_RESULT_1)
 elif 80< flash_index <=90:
-    print()
+    print(ru.FLASH_INDEX_RESULT_2)
 elif 70< flash_index <=80:
-    print()
+    print(ru.FLASH_INDEX_RESULT_3)
 elif 60< flash_index <=70:
-    print()
+    print(ru.FLASH_INDEX_RESULT_4)
 elif 50< flash_index <=60:
-    print()
+    print(ru.FLASH_INDEX_RESULT_5)
 elif 30< flash_index <=50:
-    print()
+    print(ru.FLASH_INDEX_RESULT_6)
 elif flash_index <=30:
-    print()
+    print(ru.FLASH_INDEX_RESULT_7)
