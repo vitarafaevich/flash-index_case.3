@@ -1,3 +1,9 @@
+'''
+Котлярова Полина 93
+Рафаевич Вита 93
+Якимова Антонина 93
+'''
+
 import ru_local as ru
 from textblob import TextBlob
 from deep_translator import GoogleTranslator
@@ -11,16 +17,16 @@ text_translate = text
 
 text = TextBlob(text)
 word = text.words
-count = 0
+cnt = 0
 for i in range(len(text)):
     if text[i] in 'АЕЁИОУЫЭЮЯаеёиоуыэюя' or text[i] in 'aeiouyAEIOUY':
-        count+=1
+        cnt+=1
 
 avearge_word_lenght = len(word)/len(text.sentences)
-avearge_syllable_lenght = count/len(word)
+avearge_syllable_lenght = cnt/len(word)
 print(ru.SENTENCE, len(text.sentences))
 print(ru.WORD, len(word))
-print(ru.SYLLABLE, count)
+print(ru.SYLLABLE, cnt)
 print(ru.AVEARGE_WORD_LENGHT, avearge_word_lenght)
 print(ru.AVEARGE_SYLLABLE_LENGHT, avearge_syllable_lenght)
 
