@@ -1,7 +1,7 @@
 '''
-Котлярова Полина 93
-Рафаевич Вита 93
-Якимова Антонина 93
+Kotlyarova Polina 87
+Rafaevich Vita 80
+Yakimova Antonina 90
 '''
 
 import ru_local as ru
